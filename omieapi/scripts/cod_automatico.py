@@ -2008,7 +2008,7 @@ class CodigoAutogerado(OmieBase):
                 """  """
                 return self._chamar_api(
                     call= 'ListarMovimentos',
-                    endpoint= 'estoque/movestoque/',
+                    endpoint= 'financas/mf/',
                     param = kargs
                 )
             
